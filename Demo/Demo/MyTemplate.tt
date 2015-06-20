@@ -6,3 +6,4 @@
 <#@ import namespace="System.Collections.Generic" #>
 <#@ output extension=".txt" #>
 <#= Helpers.MyHelper.Greet("John Doe") #>
+Last generation: <#= DateTime.Now #>
