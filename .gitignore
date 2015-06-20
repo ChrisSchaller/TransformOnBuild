@@ -1,0 +1,14 @@
+[Bb]in
+[Oo]bj
+[Dd]ebug
+[Rr]elease
+*.suo
+*.user
+*.aps
+*.eto
+*.csproj.user
+_UpgradeReport_Files
+UpgradeLog.XML
+*.old
+_ReSharper*
+*.Publish.xml
