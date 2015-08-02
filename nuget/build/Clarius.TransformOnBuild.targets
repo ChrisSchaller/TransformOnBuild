@@ -39,6 +39,8 @@
         <ItemGroup>
             <_TextTransform Include="@(None)"
                             Condition="'%(None.Generator)' == 'TextTemplatingFileGenerator'" />
+            <_TextTransform Include="@(Content)"
+                            Condition="'%(Content.Generator)' == 'TextTemplatingFileGenerator'" />
         </ItemGroup>
 
         <!-- Perform task batching for each file -->
